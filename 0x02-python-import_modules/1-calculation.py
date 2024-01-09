@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-if __nname__=="__main__":
+if __nname__ == "__main__":
     from calculator_1 import add, sub, mul, div
     a = 10
     b = 5
