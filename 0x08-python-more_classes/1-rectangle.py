@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Aclass defining a rectangle"""
+"""A class defining a rectangle"""
 
 
 class Rectangle:
@@ -35,7 +35,7 @@ class Rectangle:
     def height(self):
         """retrieves height attribute"""
         return self.__height
-        
+
     @height.setter
     def height(self, value):
         """sets height attribute"""
