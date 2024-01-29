@@ -59,7 +59,7 @@ def __str__(self) -> str:
         """presents a diagram of the rec defined for an object"""
         if self.__width == 0 or self.__height == 0:
             return ("")
-        rectangle = ("")
+        rectangle = ""
         for column in range(self.__height):
             for row in range(self.__width):
                 rectangle += "#"
