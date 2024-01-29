@@ -66,3 +66,4 @@ def __str__(self) -> str:
             if column < self.__height - 1:
                 rectangle += "\n"
         return (rectangle)
+
