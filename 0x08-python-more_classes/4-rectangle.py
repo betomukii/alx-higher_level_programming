@@ -55,7 +55,7 @@ class Rectangle:
                return (0)
            return ((self.__width * 2) + (self.__height * 2))
 
-       def __str__(self) -> str:
+        def __str__(self) -> str:
            """present a diagram of the rec defined for an object"""
            if self.__width == 0 or self.__height == 0:
                return ("")
@@ -69,4 +69,3 @@ class Rectangle:
 
         def __repr__(self):
             return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
-
