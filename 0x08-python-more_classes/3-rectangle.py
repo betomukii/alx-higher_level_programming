@@ -53,7 +53,7 @@ class Rectangle:
         """returns the perimeter of the rectanle"""
         if self.__width == 0 or self.__height == 0:
             return (0)
-        return ((self.__width *2) + (self.__height *2))
+        return ((self.__width * 2) + (self.__height * 2))
 
     def __str__(self) -> str:
         """presents a diagram of the rec defined for an object"""
