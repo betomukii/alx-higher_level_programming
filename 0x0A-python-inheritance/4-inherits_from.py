@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    A module that checks if an object is 
+    A module that checks if an object is
     an instance of a class directly or
     indirectly from the specified class
 """
