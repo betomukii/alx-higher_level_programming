@@ -67,7 +67,7 @@ class TestBase(unittest.TestCase):
 
     def test_id_dict(self):
         obj = Base({1: 'one', 2: 'two'})
-        self.asertEqual(obj.id, {1: 'one', 2: 'two'})
+        self.assertEqual(obj.id, {1: 'one', 2: 'two'})
 
     def test_id_unique(self):
         obj1 = Base()
