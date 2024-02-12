@@ -9,7 +9,7 @@ class Rectangle(Base):
         Methods:
             __init__()
     """
-    def __init(self, width, height, x=0, y=0, id=None):
+    def __init__(self, width, height, x=0, y=0, id=None):
         """initializes instance of the class"""
 
         super().__init__(id)
