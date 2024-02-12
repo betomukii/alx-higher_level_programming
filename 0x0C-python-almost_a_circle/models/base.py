@@ -69,7 +69,8 @@ class Base:
         """Returns a class instance from a dictionary of attributes
 
         Args:
-            **dictionary (dict): key/value pairs of attribute to initialize
+            **dictionary (dict): key/value pairs of attribute to
+            initialize
         """
         if dictionary and dictionary != {}:
             if cls.__name__ == "Rectangle":
@@ -78,7 +79,6 @@ class Base:
                 new = cls(1)
             new.update(**dictionary)
             return new
-
 
     @classmethod
     def load_from_file(cls):
