@@ -21,7 +21,7 @@ class Base:
             self.id = Base.__nb__objects
 
     @staticmethod
-    def to__json_string(list_dictionaries):
+    def to_json_string(list_dictionaries):
         """
             Returns the json serialization of a list of dicts
             Args:
