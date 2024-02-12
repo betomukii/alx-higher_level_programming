@@ -45,7 +45,7 @@ class Rectangle(Base):
             getter function for height
             Returns: height
         """
-        return self..__height
+        return self.__height
 
     @height.setter
     def height(self, value):
@@ -158,7 +158,7 @@ class Rectangle(Base):
             self.width = args[1]
             self.height = args[2]
             self.x = args[3]
-            self.y args[4]
+            self.y = args[4]
         except IndexError:
             pass
 
