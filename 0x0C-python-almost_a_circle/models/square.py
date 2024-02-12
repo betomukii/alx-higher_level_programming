@@ -44,7 +44,7 @@ class Square(Rectangle):
                 **kwargs - variable number of keyboarded args
         """
         if len(args) == 0:
-            for key, val in kwargs.item():
+            for key, val in kwargs.items():
                 self.__setattr__(key, val)
             return
 
