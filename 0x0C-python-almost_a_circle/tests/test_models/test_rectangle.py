@@ -147,7 +147,7 @@ class TestRectangle_width(unittest.TestCase):
             Rectangle(frozenset({1, 2, 3, 1}), 2)
 
     def test_range_width(self):
-        with self.assertRiasesRegex(TypeError, "width must be an integer"):
+        with self.assertRaisesRegex(TypeError, "width must be an integer"):
             Rectangle(range(5), 2)
 
     def test_bytes_width(self):
@@ -171,7 +171,7 @@ class TestRectangle_width(unittest.TestCase):
             Rectangle(float('nan'), 2)
 
     def test_negative_width(self):
-        with self. assertRaisesRegex(ValueError, "width must be > 0"):
+        with self.assertRaisesRegex(ValueError, "width must be > 0"):
             Rectangle(-1, 2)
 
     def test_zero_width(self):
