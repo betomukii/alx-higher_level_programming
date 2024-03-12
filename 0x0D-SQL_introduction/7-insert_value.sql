@@ -1,0 +1,3 @@
+--script that inserts a new row into the table first_table
+-- database hbtn_0c_0 in my MYSQL server
+INSERT INTO first_table(id, name) VALUE (89, 'Best School');
