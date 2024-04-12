@@ -6,7 +6,7 @@ script that lists all the states from the database `hbtn_0e_0_usa`
 import MySQLdb
 from sys import argv
 
-if __name__ == `__main__`:
+if __name__ == '__main__':
     """
     Access to the database and get the states from the database
     """
